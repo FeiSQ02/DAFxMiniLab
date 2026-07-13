@@ -37,6 +37,7 @@ DAFxMiniLab/
 │   ├── distortion/
 │   ├── spatial/
 │   ├── psychoacoustics/
+│   ├── others/                 # Miscellaneous effects (e.g. crossfade)
 │   └── utils/                  # Common plotting & frequency response tools
 ├── plugins/                     # Step 2: Real-time JUCE/C++ VST3 plugin
 │   ├── Source/                 # PluginProcessor, Editor, and DSP modules

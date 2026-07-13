@@ -37,6 +37,7 @@ DAFxMiniLab/
 │   ├── distortion/
 │   ├── spatial/
 │   ├── psychoacoustics/
+│   ├── others/                 # 其他效果（如交叉淡化）
 │   └── utils/                  # 通用绘图与频率响应工具
 ├── plugins/                     # 第二步：实时 JUCE/C++ VST3 插件
 │   ├── Source/                 # PluginProcessor、Editor 与 DSP 模块
