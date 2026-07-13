@@ -2,3 +2,15 @@
 *.asv
 *.m~
 *.mat
+
+# JUCE — Projucer auto-generates Builds/ from .jucer, no need to commit
+Builds/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.wsuo
+
+# macOS
+.DS_Store
