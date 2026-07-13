@@ -1,4 +1,4 @@
-# DAFxMiniLab 🎛️
+# DAFxMiniLab 
 
 > A hands-on mini-laboratory for digital audio effects – from MATLAB theory to real-time VST3 plugins.
 
@@ -14,19 +14,19 @@ Perfect for students, self-learners, and developers who want to understand *what
 
 ---
 
-## 🧪 What's inside
+##  What's inside
 
-- 🎚️ **EQ & Filters** – parametric, shelving, graphic EQ design
-- 📊 **Dynamics** – compressor, expander, noise gate with timing analysis
-- 🌀 **Modulation** – chorus, flanger, phaser
-- 🔥 **Distortion** – tube overdrive, soft/hard clipping, waveshaping
-- 🎧 **Spatial Audio** – HRTF-based binaural rendering with smooth interpolation
-- 🧠 **Psychoacoustics** – virtual bass enhancement using harmonic synthesis
-- 🔗 **Modular DSP chain** in a real-time audio plugin (VST3)
+-  **EQ & Filters** – parametric, shelving, graphic EQ design
+-  **Dynamics** – compressor, expander, noise gate with timing analysis
+-  **Modulation** – chorus, flanger, phaser
+-  **Distortion** – tube overdrive, soft/hard clipping, waveshaping
+-  **Spatial Audio** – HRTF-based binaural rendering with smooth interpolation
+-  **Psychoacoustics** – virtual bass enhancement using harmonic synthesis
+-  **Modular DSP chain** in a real-time audio plugin (VST3)
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 DAFxMiniLab/
@@ -54,7 +54,7 @@ Then explore `plugins/Source/` to see how the same algorithms are implemented in
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -77,7 +77,7 @@ Requirements: MATLAB R2019b or later (Signal Processing Toolbox recommended for 
 
 The plugin source code will be added progressively, matching each MATLAB effect.
 
-## 🎯 Why this project exists
+##  Why this project exists
 
 Most audio DSP tutorials stop at either theory or a simple offline script.
 DAFxMiniLab bridges the gap by:
@@ -87,13 +87,13 @@ DAFxMiniLab bridges the gap by:
 - Keeping everything in one repository so you can compare theory ↔ implementation side‑by‑side
 - Focusing on headphone & small‑speaker challenges like bass enhancement and spatial rendering
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License – see LICENSE for details.
 
-## 🙌 Contributing
+##  Contributing
 
 Contributions, improvements, and additional effect modules are very welcome!
 Feel free to open an issue or submit a pull request.
 
-DAFxMiniLab – learn digital audio effects from scratch, one knob at a time. ✨
+DAFxMiniLab – learn digital audio effects from scratch, one knob at a time！
