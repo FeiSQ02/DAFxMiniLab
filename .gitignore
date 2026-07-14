@@ -12,5 +12,8 @@ Builds/
 *.suo
 *.wsuo
 
+# REAPER waveform cache
+*.reapeaks
+
 # macOS
 .DS_Store
