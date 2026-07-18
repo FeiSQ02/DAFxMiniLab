@@ -5,6 +5,19 @@
               pluginFormats="buildStandalone,buildVST3">
   <MAINGROUP id="c2RTNS" name="DAFxMiniLab">
     <GROUP id="{A851AB46-2F71-0ECD-F4A1-BBAAA8749953}" name="Source">
+      <GROUP id="{68774B3A-D18F-E72B-C515-E62CE599E631}" name="ui">
+        <FILE id="NN2sHo" name="LofiPanel.cpp" compile="1" resource="0" file="Source/ui/LofiPanel.cpp"/>
+        <FILE id="POQixo" name="LofiPanel.h" compile="0" resource="0" file="Source/ui/LofiPanel.h"/>
+        <FILE id="A7elp4" name="VolumePanel.cpp" compile="1" resource="0" file="Source/ui/VolumePanel.cpp"/>
+        <FILE id="SJ2ZFh" name="VolumePanel.h" compile="0" resource="0" file="Source/ui/VolumePanel.h"/>
+      </GROUP>
+      <GROUP id="{9FF266C5-F38B-E7AE-EB3F-4C61E3573742}" name="dsp">
+        <FILE id="q3uU2c" name="LofiEffect.cpp" compile="1" resource="0" file="Source/dsp/LofiEffect.cpp"/>
+        <FILE id="OGayHv" name="LofiEffect.h" compile="0" resource="0" file="Source/dsp/LofiEffect.h"/>
+        <FILE id="ZYmUcV" name="VolumeEffect.cpp" compile="1" resource="0"
+              file="Source/dsp/VolumeEffect.cpp"/>
+        <FILE id="Iyz903" name="VolumeEffect.h" compile="0" resource="0" file="Source/dsp/VolumeEffect.h"/>
+      </GROUP>
       <FILE id="hSMzhc" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="XGsu5I" name="PluginProcessor.h" compile="0" resource="0"
