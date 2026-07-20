@@ -111,7 +111,7 @@ public:
     void prepare(double sampleRate);
     void reset();
 
-    void setGainDecibels(float gainDb);
+    void setGainDb(float gainDb);
     void process(juce::AudioBuffer<float>& buffer);
 
 private:
@@ -144,7 +144,7 @@ void VolumeEffect::reset()
     gainLinear.setCurrentAndTargetValue(gainLinear.getTargetValue());
 }
 
-void VolumeEffect::setGainDecibels(float gainDb)
+void VolumeEffect::setGainDb(float gainDb)
 {
     gainLinear.setTargetValue(
         juce::Decibels::decibelsToGain(gainDb));
